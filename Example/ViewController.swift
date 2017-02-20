@@ -36,9 +36,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             rectInView.origin.x += sender.frame.origin.x
             rectInView.origin.y += sender.frame.origin.y
             rectInView.size = sender.frame.size
-            let menuItem = YZPopOverItem.item("菜单一", image: UIImage(named: "action_icon"), target: self, action: #selector(self.click))
+            let menuItem = YZPopOverItem.item("menu one", image: UIImage(named: "action_icon"), target: self, action: #selector(self.click))
             menuItem.foreColor = .black
-            let menuItem2 = YZPopOverItem.item("菜单二", image: UIImage(named: "action_icon"), target: self, action: #selector(self.click))
+            let menuItem2 = YZPopOverItem.item("menu two", image: UIImage(named: "action_icon"), target: self, action: #selector(self.click))
             YZPopOverView.showMenuInView(UIApplication.shared.keyWindow!, fromRect: rectInView, menuItems: [menuItem, menuItem2])
         }
         return cell
