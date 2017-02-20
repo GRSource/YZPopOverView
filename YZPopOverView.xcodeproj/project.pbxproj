@@ -12,13 +12,15 @@
 		A3755EB71E5A8D56008C5CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3755EAF1E5A8D56008C5CBA /* LaunchScreen.storyboard */; };
 		A3755EB91E5A8D56008C5CBA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3755EB31E5A8D56008C5CBA /* Info.plist */; };
 		A3755EBA1E5A8D56008C5CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EB41E5A8D56008C5CBA /* ViewController.swift */; };
-		A3755EC11E5A8DDE008C5CBA /* action_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3755EBC1E5A8DDE008C5CBA /* action_icon.png */; };
 		A3755EC21E5A8DDE008C5CBA /* YZPopOverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EBD1E5A8DDE008C5CBA /* YZPopOverItem.swift */; };
 		A3755EC31E5A8DDE008C5CBA /* YZPopOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EBE1E5A8DDE008C5CBA /* YZPopOverlay.swift */; };
 		A3755EC41E5A8DDE008C5CBA /* YZPopOverMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EBF1E5A8DDE008C5CBA /* YZPopOverMenuView.swift */; };
 		A3755EC51E5A8DDE008C5CBA /* YZPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EC01E5A8DDE008C5CBA /* YZPopOverView.swift */; };
 		A3755EC71E5A8E3A008C5CBA /* YZTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EC61E5A8E3A008C5CBA /* YZTestCell.swift */; };
 		A3755EC91E5A8EA8008C5CBA /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3755EC81E5A8EA8008C5CBA /* testViewController.swift */; };
+		A3755ED61E5ACB7A008C5CBA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A3755ED41E5ACB7A008C5CBA /* LICENSE */; };
+		A3755ED71E5ACB7A008C5CBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A3755ED51E5ACB7A008C5CBA /* README.md */; };
+		A3755ED91E5ACBDC008C5CBA /* action_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3755ED81E5ACBDC008C5CBA /* action_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,13 +30,15 @@
 		A3755EB01E5A8D56008C5CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3755EB31E5A8D56008C5CBA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3755EB41E5A8D56008C5CBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3755EBC1E5A8DDE008C5CBA /* action_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action_icon.png; sourceTree = "<group>"; };
 		A3755EBD1E5A8DDE008C5CBA /* YZPopOverItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPopOverItem.swift; sourceTree = "<group>"; };
 		A3755EBE1E5A8DDE008C5CBA /* YZPopOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPopOverlay.swift; sourceTree = "<group>"; };
 		A3755EBF1E5A8DDE008C5CBA /* YZPopOverMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPopOverMenuView.swift; sourceTree = "<group>"; };
 		A3755EC01E5A8DDE008C5CBA /* YZPopOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPopOverView.swift; sourceTree = "<group>"; };
 		A3755EC61E5A8E3A008C5CBA /* YZTestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZTestCell.swift; sourceTree = "<group>"; };
 		A3755EC81E5A8EA8008C5CBA /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		A3755ED41E5ACB7A008C5CBA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A3755ED51E5ACB7A008C5CBA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3755ED81E5ACBDC008C5CBA /* action_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A3755EBB1E5A8DDE008C5CBA /* YZPopOverView */,
 				A3755EAC1E5A8D56008C5CBA /* Example */,
+				A3755ED41E5ACB7A008C5CBA /* LICENSE */,
+				A3755ED51E5ACB7A008C5CBA /* README.md */,
 				A3755E991E5A8D0A008C5CBA /* YZPopOverView */,
 				A3755E981E5A8D0A008C5CBA /* Products */,
 			);
@@ -76,6 +82,7 @@
 		A3755EAC1E5A8D56008C5CBA /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				A3755ED81E5ACBDC008C5CBA /* action_icon.png */,
 				A3755EC61E5A8E3A008C5CBA /* YZTestCell.swift */,
 				A3755EAD1E5A8D56008C5CBA /* AppDelegate.swift */,
 				A3755EAE1E5A8D56008C5CBA /* Assets.xcassets */,
@@ -90,7 +97,6 @@
 		A3755EBB1E5A8DDE008C5CBA /* YZPopOverView */ = {
 			isa = PBXGroup;
 			children = (
-				A3755EBC1E5A8DDE008C5CBA /* action_icon.png */,
 				A3755EBD1E5A8DDE008C5CBA /* YZPopOverItem.swift */,
 				A3755EBE1E5A8DDE008C5CBA /* YZPopOverlay.swift */,
 				A3755EBF1E5A8DDE008C5CBA /* YZPopOverMenuView.swift */,
@@ -159,10 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3755EC11E5A8DDE008C5CBA /* action_icon.png in Resources */,
 				A3755EB91E5A8D56008C5CBA /* Info.plist in Resources */,
 				A3755EB71E5A8D56008C5CBA /* LaunchScreen.storyboard in Resources */,
 				A3755EB61E5A8D56008C5CBA /* Assets.xcassets in Resources */,
+				A3755ED61E5ACB7A008C5CBA /* LICENSE in Resources */,
+				A3755ED91E5ACBDC008C5CBA /* action_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +186,7 @@
 				A3755EC31E5A8DDE008C5CBA /* YZPopOverlay.swift in Sources */,
 				A3755EC51E5A8DDE008C5CBA /* YZPopOverView.swift in Sources */,
 				A3755EBA1E5A8D56008C5CBA /* ViewController.swift in Sources */,
+				A3755ED71E5ACB7A008C5CBA /* README.md in Sources */,
 				A3755EB51E5A8D56008C5CBA /* AppDelegate.swift in Sources */,
 				A3755EC71E5A8E3A008C5CBA /* YZTestCell.swift in Sources */,
 			);
